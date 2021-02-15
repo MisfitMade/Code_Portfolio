@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<Pane fx:id = "root"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="main.backend.AimTrainer"
+      style="-fx-background-color: teal; -fx-background-radius: 100">
+
+    <VBox fx:id="vbox"
+          alignment="CENTER" spacing="20"
+          prefWidth="350" prefHeight="400">
+
+        <Label text="Aim Trainer"
+               style="-fx-font-size: 30; -fx-text-fill: white"
+               textAlignment="CENTER"/>
+
+        <Button fx:id="bullseye"
+                onAction="#startTrainer"
+                style="-fx-background-color: transparent">
+        </Button>
+
+        <Label text="Hit 30 targets as quickly as you can.&#xD;Click the target above to being."
+               style="-fx-font-size: 22; -fx-text-fill: white"
+               textAlignment="CENTER"/>
+
+    </VBox>
+
+</Pane>

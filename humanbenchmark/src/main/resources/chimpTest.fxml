@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane fx:id = "root"
+           xmlns="http://javafx.com/javafx"
+           xmlns:fx="http://javafx.com/fxml"
+           fx:controller="main.backend.ChimpTest"
+           style="-fx-background-color: teal; -fx-background-radius: 100">
+
+            <VBox spacing="30" alignment="CENTER">
+
+                <Label text="Are You Smarter Than a Chimpanzee?"
+                       style="-fx-text-fill: white; -fx-font-size: 35"/>
+
+                <Label text="Click the squares in order according to their numbers.&#xD;The test will get progressively harder."
+                       textAlignment="CENTER"
+                       style="-fx-text-fill: white; -fx-font-size: 25"/>
+
+                <Button text="Start Test"
+                        style="-fx-background-color: yellow;  -fx-font-size: 25"
+                        onAction="#startChimpTest"/>
+
+            </VBox>
+
+</StackPane>

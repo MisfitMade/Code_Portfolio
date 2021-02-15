@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.effect.DropShadow?>
+
+<GridPane xmlns="http://javafx.com/javafx"
+          xmlns:fx="http://javafx.com/fxml"
+          fx:id="homePane"
+          fx:controller="main.backend.Home"
+          prefHeight="500.0" prefWidth="700.0"
+          alignment="CENTER"
+          style="-fx-background-color: rgb(0,0,0,0.81); -fx-background-radius: 100"
+          vgap="10" hgap="10">
+        <Button onAction="#reactionTimeClicked"
+                GridPane.columnIndex="0" GridPane.rowIndex="0"
+                style="-fx-background-color: yellow; -fx-background-radius: 12"
+                prefWidth="200" prefHeight="180">
+                <effect>
+                        <DropShadow color="red" offsetX="5.0" offsetY="2.5"/>
+                </effect>
+        </Button>
+
+        <Button onAction="#aimTrainerClicked"
+                GridPane.columnIndex="1" GridPane.rowIndex="0"
+                style="-fx-background-color: yellow; -fx-background-radius: 12"
+                prefWidth="200" prefHeight="180">
+                <effect>
+                        <DropShadow color="red" offsetX="5.0" offsetY="2.5"/>
+                </effect>
+        </Button>
+
+        <Button onAction="#chimpTestClicked"
+                GridPane.columnIndex="2" GridPane.rowIndex="0"
+                style="-fx-background-color: yellow; -fx-background-radius: 12"
+                prefWidth="200" prefHeight="180">
+                <effect>
+                        <DropShadow color="red" offsetX="5.0" offsetY="2.5"/>
+                </effect>
+        </Button>
+
+        <Button onAction="#visualMemoryClicked"
+                GridPane.columnIndex="0" GridPane.rowIndex="1"
+                style="-fx-background-color: yellow; -fx-background-radius: 12"
+                prefWidth="200" prefHeight="180">
+                <effect>
+                        <DropShadow color="red" offsetX="5.0" offsetY="2.5"/>
+                </effect>
+        </Button>
+
+        <Button onAction="#scoreButtonClicked"
+                GridPane.columnIndex="1" GridPane.rowIndex="1"
+                style="-fx-background-color: yellow; -fx-background-radius: 12"
+                prefWidth="200" prefHeight="180">
+                <effect>
+                        <DropShadow color="red" offsetX="5.0" offsetY="2.5"/>
+                </effect>
+
+        </Button>
+
+        <Button onAction="#typingClicked"
+                GridPane.columnIndex="2" GridPane.rowIndex="1"
+                style="-fx-background-color: yellow; -fx-background-radius: 12"
+                prefWidth="200" prefHeight="180">
+                <effect>
+                        <DropShadow color="red" offsetX="5.0" offsetY="2.5"/>
+                </effect>
+        </Button>
+
+        <Button onAction="#numberMemoryClicked"
+                GridPane.columnIndex="0" GridPane.rowIndex="2"
+                style="-fx-background-color: yellow; -fx-background-radius: 12"
+                prefWidth="200" prefHeight="180">
+                <effect>
+                        <DropShadow color="red" offsetX="5.0" offsetY="2.5"/>
+                </effect>
+        </Button>
+
+        <Button onAction="#fastMathClicked"
+                GridPane.rowIndex="2" GridPane.columnIndex="1"
+                style="-fx-background-color: yellow; -fx-background-radius: 12"
+                prefWidth="200" prefHeight="180">
+                <effect>
+                        <DropShadow color="red" offsetX="5.0" offsetY="2.5"/>
+                </effect>
+        </Button>
+
+        <Button onAction="#verbalMemoryClicked"
+                GridPane.columnIndex="2" GridPane.rowIndex="2"
+                style="-fx-background-color: yellow; -fx-background-radius: 12"
+                prefWidth="200" prefHeight="180">
+                <effect>
+                        <DropShadow color="red" offsetX="5.0" offsetY="2.5"/>
+                </effect>
+        </Button>
+
+
+</GridPane>

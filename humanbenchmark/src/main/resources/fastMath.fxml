@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<StackPane fx:id="root"
+           xmlns="http://javafx.com/javafx"
+           xmlns:fx="http://javafx.com/fxml"
+           fx:controller="main.backend.FastMath"
+           style="-fx-background-color: teal">
+
+    <VBox fx:id="originalBox" alignment="CENTER" spacing="12">
+
+
+        <Text textAlignment="CENTER" text="Fast Math" fill="white"
+              style="-fx-font-size: 42"/>
+
+        <Text textAlignment="CENTER" style="-fx-font-size: 31" fill="white"
+              text="Solve the additions in the time given, then provide your answer."/>
+
+        <Button fx:id="start" text="Start" style="-fx-background-color: yellow; -fx-font-size: 22 "
+                onAction="#startPressed"/>
+
+    </VBox>
+
+
+</StackPane>

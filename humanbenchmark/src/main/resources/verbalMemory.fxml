@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Text?>
+<StackPane fx:id="root"
+           xmlns="http://javafx.com/javafx"
+           xmlns:fx="http://javafx.com/fxml"
+           fx:controller="main.backend.VerbalMemory"
+           style="-fx-background-color: teal">
+
+    <VBox alignment="CENTER" spacing="20">
+
+        <Text text="Verbal Memory" fill="white" textAlignment="CENTER"
+              style="-fx-font-size: 42"/>
+
+        <Text text="You will be shown words, one at a time.&#xD;If you've seen a word during the test, click SEEN.&#xD;If it's a new word, click NEW."
+              textAlignment="CENTER" fill="white" style="-fx-font-size: 24"/>
+
+        <Button fx:id="start" text="Start" style="-fx-background-color: yellow; -fx-font-size: 22 "
+                prefWidth="150"
+                onAction="#startPressed"/>
+    </VBox>
+
+</StackPane>
